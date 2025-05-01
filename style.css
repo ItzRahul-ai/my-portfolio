@@ -1,0 +1,4 @@
+#mobile-menu.open {
+    max-height: 500px; /* Set based on content height */
+    opacity: 1;
+  }
