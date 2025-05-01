@@ -11,12 +11,12 @@
 
 <body>
   <!-- main div -->
-  <div class="h-screen px-4 py-2 bg-[rgb(0,0,0,0.8)]">
+  <div class="h-screen md:px-4 py-2 bg-[rgb(0,0,0,0.8)]">
     <!-- main content container -->
     <div class="h-full rounded-xl bg-[#fff9] overflow-y-auto px-2">
 
 
-      <!-- main nav wrapper -->
+      <!-- main nav container -->
       <nav class="bg-white shadow-lg rounded-xl font-bold p-2 relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="flex justify-between h-16">
@@ -84,13 +84,18 @@
         </div>
 
         <!-- Mobile Menu -->
-        <div id="mobile-menu" class="md:hidden overflow-hidden max-h-0 opacity-0 transition-all duration-700 pl-4 font-bold text-xl">
+        <div id="mobile-menu"
+          class="md:hidden overflow-hidden max-h-0 opacity-0 transition-all duration-700 pl-4 font-bold text-xl">
           <a href="#home" class="block py-2 text-blue-500">Home</a>
-          <a href="#career" class="block py-2 text-gray-800 hover:text-blue-500 transition-all duration-500 hover:pl-2">Career</a>
-          <a href="#project" class="block py-2 text-gray-800 hover:text-blue-500 transition-all duration-500 hover:pl-2">Projects</a>
-          <a href="#contact" class="block py-2 text-gray-800 hover:text-blue-500 transition-all duration-500 hover:pl-2">Contact</a>
-          <a href="#about" class="block py-2 text-gray-800 hover:text-blue-500 transition-all duration-500 hover:pl-2">About</a>
-          
+          <a href="#career"
+            class="block py-2 text-gray-800 hover:text-blue-500 transition-all duration-500 hover:pl-2">Career</a>
+          <a href="#project"
+            class="block py-2 text-gray-800 hover:text-blue-500 transition-all duration-500 hover:pl-2">Projects</a>
+          <a href="#contact"
+            class="block py-2 text-gray-800 hover:text-blue-500 transition-all duration-500 hover:pl-2">Contact</a>
+          <a href="#about"
+            class="block py-2 text-gray-800 hover:text-blue-500 transition-all duration-500 hover:pl-2">About</a>
+
         </div>
 
       </nav>
@@ -100,12 +105,12 @@
   </div>
   <!-- dor javascript -->
   <script>
-   const btn = document.getElementById('menu-btn');
-const menu = document.getElementById('mobile-menu');
+    const btn = document.getElementById('menu-btn');
+    const menu = document.getElementById('mobile-menu');
 
-btn.addEventListener('click', () => {
-  menu.classList.toggle('open');
-});
+    btn.addEventListener('click', () => {
+      menu.classList.toggle('open');
+    });
 
   </script>
 
