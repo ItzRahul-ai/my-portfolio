@@ -11,7 +11,7 @@ z-index: -1;
 .video-con {
    position: relative;
    background-color: #fff1;
-   background-blend-mode: overlay;
+  
    
 }
 @media print {
