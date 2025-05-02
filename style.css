@@ -10,7 +10,14 @@ z-index: -1;
 }
 .video-con {
    position: relative;
-   background-color: rgba(0,0,0,0.1);
+   background-color: #fff1;
    background-blend-mode: overlay;
-   z-index: 1;
+   
+}
+@media print {
+  *{
+    background-color: white;
+    box-shadow: none;
+    color: black;
+  }
 }
