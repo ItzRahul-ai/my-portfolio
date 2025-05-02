@@ -2,3 +2,15 @@
     max-height: 500px; /* Set based on content height */
     opacity: 1;
   }
+.video {
+object-fit: cover;
+position: absolute;
+z-index: -1;
+
+}
+.video-con {
+   position: relative;
+   background-color: rgba(0,0,0,0.1);
+   background-blend-mode: overlay;
+   z-index: 1;
+}
