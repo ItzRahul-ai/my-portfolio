@@ -6,13 +6,13 @@
 object-fit: cover;
 position: absolute;
 z-index: -1;
-opacity: 50%;
+opacity: 40%;
 }
 .video-con {
    position: relative;
    background-color: #fff1;
    background-blend-mode: overlay;
-   
+   z-index: 1;
 }
 @media print {
   *{
